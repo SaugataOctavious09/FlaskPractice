@@ -20,7 +20,7 @@ def math_op():
         result = int(num1)/int(num2)
     else:
         result = int(num1) - int(num2)
-    return jsonify(result)
+    return "The operation was {} and result is {}".format(operation,result)
 
     
     
